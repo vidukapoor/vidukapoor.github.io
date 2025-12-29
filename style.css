@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: #f9fafb;
+  color: #111827;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(135deg, #dc2626, #f97316);
+  color: white;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  margin-top: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.links a {
+  margin: 0 0.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.section {
+  max-width: 1000px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
+}
+
+.section h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #dc2626;
+  padding-left: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  color: #dc2626;
+}
+
+.card span {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+ul {
+  margin-left: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #111827;
+  color: white;
+  font-size: 0.9rem;
+}
